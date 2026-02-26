@@ -33,7 +33,7 @@ return (
     <div>
         <h2>Running Exercise</h2>
         <p>Timer: {formatTime(time)}</p>
-        <button onClick={startStop}>{isRunning ? "Stop" : "Start"}</button>
+        <button onClick={startStop}>Start</button>
         <button onClick={reset}>Reset</button>
     </div>
 );
